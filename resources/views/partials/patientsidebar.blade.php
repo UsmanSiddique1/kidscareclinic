@@ -15,7 +15,7 @@
           <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="home-page" class="d-block">Usman</a>
+          <a href="home-page" class="d-block">Patient</a>
         </div>
       </div>
 
@@ -28,85 +28,38 @@
             <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                   Doctor
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="add-doctor" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Add Doctor</p>
-                </a>
-              </li>
-             
-             <li class="nav-item">
-                <a href="view-doctor" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>View Doctor</p>
-                </a>
-              </li>
-              
-            </ul>
-          </li>
-           <li class="nav-item has-treeview ">
-            <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
-              <p>
-                   Moderator
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="add-moderator" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Add Moderator</p>
-                </a>
-              </li>
-             
-             <li class="nav-item">
-                <a href="view-moderator" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>View Moderator</p>
-                </a>
-              </li>
-              
-            </ul>
-          </li>
-
-            <li class="nav-item has-treeview ">
-            <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
-              <p>
                    Appointment
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="add-appointment" class="nav-link">
+                <a href="patient-new-appointment" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Add Appointment</p>
+                  <p>Add New Appointment</p>
                 </a>
               </li>
-             
-             <li class="nav-item">
-                <a href="view-all-appointment" class="nav-link">
+              <li class="nav-item">
+                <a href="patient-appointment" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>View All Appointment</p>
+                  <p>Add  Appointment</p>
                 </a>
               </li>
-               <li class="nav-item">
-                <a href="checked-appointment" class="nav-link">
+            </ul>
+          </li>
+            <li class="nav-item has-treeview ">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                  History
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="view-patient" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Checked Appointment</p>
-                </a>
-              </li>
-               <li class="nav-item">
-                <a href="upcomming-appointment" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>UpComming Appointment</p>
+                  <p>View Patient</p>
                 </a>
               </li>
             </ul>
