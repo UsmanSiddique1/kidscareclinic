@@ -40,7 +40,7 @@
         <thead>
           <tr>
             <th>Time</th>
-            <th><a href="#" class="btn btn-info addRow">Add</a></th>
+            <th><a href="#" class="btn btn-info time">Add</a></th>
           </tr>
         </thead>
         <tbody>
