@@ -18,5 +18,27 @@ class PatientController extends Controller
 
     	return view('patient.history.viewpatient');
     }
+    public function  onepatientpatient(){
 
+    	return view('patient.history.onepatienthistory');
+    }
+    public function  onepatientmedicinehistory(){
+
+    	return view('patient.history.onepatientmedicinehistory');
+    }
+     public function  singlepatientmedicinehistory(){
+
+        return view('doctor.appointment.singlepatientmedicinehistory');
+    }
+
+    public function  patienthistory(){
+
+        return view('doctor.appointment.checkpatienthistory');
+    }
+public function  drreportpatients(){
+
+        return view('doctor.appointment.drreportpatients');
+    }
+
+    
 }

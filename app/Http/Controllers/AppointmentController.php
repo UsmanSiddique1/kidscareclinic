@@ -22,4 +22,31 @@ class AppointmentController extends Controller
 
     	return view('Admin.appointment.checkedappointment');
     }
+
+     public function viewpatientappointment(){
+
+        return view('doctor.appointment.viewappointment');
+    }
+
+
+      public function statusappointment(){
+
+        return view('doctor.appointment.viewappointmentstatus');
+    }
+
+ public function addmoderatorappointment(){
+
+        return view('moderator.appointment.addappointment');
+    }
+
+    public function moderatorappointment(){
+
+        return view('moderator.appointment.viewallappointment');
+    }
+
+    public function moderatorcheckedappointment(){
+
+        return view('moderator.appointment.checkedappointment');
+    }
+
 }

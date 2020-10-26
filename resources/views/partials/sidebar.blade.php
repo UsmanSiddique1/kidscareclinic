@@ -46,7 +46,18 @@
                   <p>View Doctor</p>
                 </a>
               </li>
-              
+               <li class="nav-item">
+                <a href="addtimeanddays" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Add Timing and days</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="viewtimeanddays" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>view Timing and days</p>
+                </a>
+              </li>
             </ul>
           </li>
            <li class="nav-item has-treeview ">

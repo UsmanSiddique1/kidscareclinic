@@ -22,4 +22,17 @@ class doctorcontroller extends Controller
 
     	return view('Admin.doctor.doctorsinglepagedetail');
     }
+ public function viewdoctordetail(){
+
+        return view('doctor.profile.viewprofile');
+    }
+    
+    public function updatedoctorprofile(){
+
+        return view('doctor.profile.updateprofile');
+    }
+     
+
+
+
 }

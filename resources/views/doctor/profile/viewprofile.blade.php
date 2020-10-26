@@ -1,4 +1,4 @@
-@extends('partials.layouts.datatablemaster')
+@extends('partials.layouts.doctortablemaster')
 @section('content')
  
 <section class="content-wrapper">
@@ -40,7 +40,6 @@
                       </div>
                   </div>
                 </div>
-               
                 </div>
                 </div>
                 <!-- /.card-body -->
