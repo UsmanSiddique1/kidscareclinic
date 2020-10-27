@@ -39,6 +39,14 @@ public function  drreportpatients(){
 
         return view('doctor.appointment.drreportpatients');
     }
+public function  viewallpatient(){
 
-    
+        return view('moderator.patient.addpatient');
+    }
+
+    public function  viewallpatients(){
+
+        return view('Admin.patient.addpatient');
+    }
+
 }

@@ -136,7 +136,40 @@
                   </div>
                   
                   </div>
-                  
+                  <div class="row">
+                    <div class="form-group col-md-6">
+                      <label>Select Days</label>
+                      <select class="form-control">
+                        <option>Select</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                      </select>
+                    </div>
+                    
+                  </div>
+                   <div class="row">
+                      <div class="col-md-12">
+      <table class="table table-responsive w-100 d-block d-md-table">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>To</th>
+            <th><a href="#" class="btn btn-info time">Add</a></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input  class="form-control" type="time"  placeholder="Time" name="time[]"></td>
+            <td><input  class="form-control" type="time"  placeholder="Time" name="time[]"></td>
+            <td><a href="#" class="btn btn-danger remove">Remove</a></td>
+            
+          </tr>
+        </tbody>
+      </table>
+    </div>
+      <hr>
+     </div>
                   <label>About us</label>
                  <div class="form-group col-md-6">
                 

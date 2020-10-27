@@ -22,10 +22,10 @@
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
-       @include('partials.nav')
-       @include('partials.patientsidebar')
+      
+       
        @yield('content')
-       @include('partials.footer')
+       
 
 
   </div>
@@ -48,6 +48,10 @@
 <script>
   $(function () {
     $("#example1").DataTable({
+      "responsive": true,
+      "autoWidth": false,
+    });
+     $("#example2q").DataTable({
       "responsive": true,
       "autoWidth": false,
     });

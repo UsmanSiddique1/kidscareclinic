@@ -17,7 +17,7 @@
                      <th>Doctor Name</th>
                     <th>Patient Name</th>
                     <th>Phone No</th>
-                     <th>Day</th>
+                     <th>Date</th>
                     <th>Time</th>
                     <th>Status</th>
                     
@@ -29,7 +29,7 @@
                   <tr>
                    
                    
-                     <td>a</td><td>a</td><td>a</td><td>a</td><td>a</td><td>a</td>
+                     <td>a</td><td>a</td><td>a</td><td>a</td><td>a</td><td class="btn btn-success">checked</td>
                     
                   </tr>
                  

@@ -46,7 +46,7 @@
                   <p>View Doctor</p>
                 </a>
               </li>
-               <li class="nav-item">
+              <!--  <li class="nav-item">
                 <a href="addtimeanddays" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Add Timing and days</p>
@@ -57,7 +57,7 @@
                   <i class="far fa-circle nav-icon"></i>
                   <p>view Timing and days</p>
                 </a>
-              </li>
+              </li> -->
             </ul>
           </li>
            <li class="nav-item has-treeview ">
@@ -85,7 +85,46 @@
               
             </ul>
           </li>
-
+ <li class="nav-item has-treeview ">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                   Patient
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              
+             
+             <li class="nav-item">
+                <a href="viewallpatients" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>View All Patient</p>
+                </a>
+              </li>
+              
+            </ul>
+          </li>
+          <li class="nav-item has-treeview ">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                   Bill
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              
+             
+             <li class="nav-item">
+                <a href="viewbills" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>View All Bill</p>
+                </a>
+              </li>
+              
+            </ul>
+          </li>
             <li class="nav-item has-treeview ">
             <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
@@ -95,12 +134,12 @@
               </p>
             </a>
             <ul class="nav nav-treeview">
-              <li class="nav-item">
+             <!--  <li class="nav-item">
                 <a href="add-appointment" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Add Appointment</p>
                 </a>
-              </li>
+              </li> -->
              
              <li class="nav-item">
                 <a href="view-all-appointment" class="nav-link">
@@ -117,7 +156,43 @@
                <li class="nav-item">
                 <a href="upcomming-appointment" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>UpComming Appointment</p>
+                  <p>Cancel Appointment</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+           <li class="nav-item has-treeview ">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                   Appointment History
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+             <!--  <li class="nav-item">
+                <a href="add-appointment" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Add Appointment</p>
+                </a>
+              </li> -->
+             
+             <li class="nav-item">
+                <a href="daily" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Daily History</p>
+                </a>
+              </li>
+               <li class="nav-item">
+                <a href="weekly" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Weekly History</p>
+                </a>
+              </li>
+               <li class="nav-item">
+                <a href="month" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Monthly History</p>
                 </a>
               </li>
             </ul>

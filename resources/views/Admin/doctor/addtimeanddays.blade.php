@@ -48,13 +48,14 @@
         <thead>
           <tr>
             <th>Time</th>
+            <th>To</th>
             <th><a href="#" class="btn btn-info time">Add</a></th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td><input  class="form-control" type="time"  placeholder="Time" name="time[]"></td>
-            
+            <td><input  class="form-control" type="time"  placeholder="Time" name="time[]"></td>
             <td><a href="#" class="btn btn-danger remove">Remove</a></td>
             
           </tr>

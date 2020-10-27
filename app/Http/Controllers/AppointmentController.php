@@ -49,4 +49,20 @@ class AppointmentController extends Controller
         return view('moderator.appointment.checkedappointment');
     }
 
+
+    public function daily(){
+
+        return view('Admin.appointmenthistory.daily');
+    }
+    public function weekly(){
+
+        return view('Admin.appointmenthistory.weekly');
+    }
+    
+    public function month(){
+
+        return view('Admin.appointmenthistory.monthly');
+    }
+    
+    
 }

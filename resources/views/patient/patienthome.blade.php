@@ -1,251 +1,177 @@
 @extends('partials.layouts.patienttablemaster')
 @section('content')
-<div class="content-wrapper">
- <section class="content">
-      <div class="container-fluid">
-        <!-- Small boxes (Stat box) -->
-        <div class="row pt-2">
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-info">
-              <div class="inner">
-                <h3>150</h3>
 
-                <p>New Orders</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-bag"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-success">
-              <div class="inner">
-                <h3>53<sup style="font-size: 20px">%</sup></h3>
 
-                <p>Sale</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-stats-bars"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-warning">
-              <div class="inner">
-                <h3>44</h3>
+  <section class="content mt-3">
+   <div class="container-fluid">
 
-                <p>Net Profit</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-person-add"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-danger">
-              <div class="inner">
-                <h3>65</h3>
-
-                <p>Gross Profit</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-pie-graph"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-        </div>
-    </div>
-        <div class="row">
-        <div class="col-lg-6">
-          <div class="row">
-         <div class="col-lg-6 col-6">
-            <!-- small box -->
-            <div class="small-box bg-danger">
-              <div class="inner">
-                <h3>150</h3>
-
-                <p>Purchase</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-bag"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-6 col-6">
-            <!-- small box -->
-            <div class="small-box bg-warning">
-              <div class="inner">
-                <h3>150</h3>
-
-                <p>New Orders</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-bag"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-6 col-6">
-            <!-- small box -->
-            <div class="small-box bg-danger">
-              <div class="inner">
-                <h3>150</h3>
-
-                <p>New Orders</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-bag"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-6 col-6">
-            <!-- small box -->
-            <div class="small-box bg-success">
-              <div class="inner">
-                <h3>150</h3>
-
-                <p>New Orders</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-bag"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-     
-  </div>
-        </div>
-   
-            <!-- /.card -->
-  
-        <div class="col-lg-6">
-        <div class="card">
-              <div class="card-header border-0">
-                <h3 class="card-title">Delievered Products</h3>
-                <div class="card-tools">
-                  <a href="#" class="btn btn-tool btn-sm">
-                    <i class="fas fa-download"></i>
-                  </a>
-                  <a href="#" class="btn btn-tool btn-sm">
-                    <i class="fas fa-bars"></i>
-                  </a>
+        <div class="card card-solid">
+        <div class="card-body pb-0">
+          <div class="row d-flex align-items-stretch">
+            <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+              <div class="card bg-light">
+                
+                <div class="card-body pt-0">
+                  <div class="row">
+                    <div class="col-7">
+                      <span style="font-size: 24px;font-weight: 600">Patient ID: </span><span style="font-size: 22px; font-weight: 400">122</span>
+                     <span style="font-size: 24px;font-weight: 600">Patient Name: </span><span style="font-size: 22px; font-weight: 400">Muhammad Usman</span>
+                      <span style="font-size: 24px;font-weight: 600">Phone No: </span><span style="font-size: 22px; font-weight: 400">03484218460</span>
+                    </div>
+                    <div class="col-5 text-center pt-3">
+                      <img src="../../dist/img/user1-128x128.jpg" alt="" class="img-circle img-fluid">
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="text-right">
+                    <a href="single-doctor" class="btn btn-md btn-primary">
+                      <i class="fas fa-user"></i> View Detail
+                    </a>
+                  </div>
                 </div>
               </div>
-              <div class="card-body table-responsive p-0">
-                <table class="table table-striped table-valign-middle">
+            </div>
+
+
+            <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+              <div class="card bg-light">
+                
+                <div class="card-body pt-0">
+                  <div class="row">
+                    <div class="col-7">
+                      <span style="font-size: 24px;font-weight: 600">Patient ID: </span><span style="font-size: 22px; font-weight: 400">112</span>
+                     <span style="font-size: 24px;font-weight: 600">Patient Name: </span><span style="font-size: 22px; font-weight: 400">Muhammad Ali</span><br>
+                      <span style="font-size: 24px;font-weight: 600">Phone No: </span><span style="font-size: 22px; font-weight: 400">0345887898</span>
+                    </div>
+                    <div class="col-5 text-center pt-3">
+                      <img src="../../dist/img/user1-128x128.jpg" alt="" class="img-circle img-fluid">
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="text-right">
+                    <a href="single-doctor" class="btn btn-md btn-primary">
+                      <i class="fas fa-user"></i> View Detail
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+ </div>
+    </section>
+     <section class="content">
+      <div class="container-fluid">
+        <div class="row pt-5">
+          <div class="col-12">
+                <div class="card">
+              <div class="card-header">
+                <h3 class="card-title text-bold ">View One Patient History</h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <table id="example1" class="table table-bordered table-striped">
                   <thead>
                   <tr>
-                  	<th>Date</th>
-                    <th>Name</th>
-                    <th>Total Bill</th>
-                    <th>More</th>
+                     <th>Date</th>
+                    <th>Doctor Name</th>
+                    <th>Patient Name</th>
+                     <th>Weight</th>
+                    <th>Height</th>
+                     <th>Next Appointment</th>
+                     <th>Generate PDF</th>
+
+                     
+
+                    
+                    
+                  
                   </tr>
                   </thead>
                   <tbody>
                   <tr>
-                    <td>
-                      <img src="dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
-                      Some Product
-                    </td>
-                    <td>$13 USD</td>
-                    <td>
-                      <small class="text-success mr-1">
-                        <i class="fas fa-arrow-up"></i>
-                        12%
-                      </small>
-                      12,000 Sold
-                    </td>
-                    <td>
-                      <a href="#" class="text-muted">
-                        <i class="fas fa-search"></i>
-                      </a>
-                    </td>
+                    
+                     <td>a</td><td>a</td><td>a</td><td>a</td><td>a</td><td><a href="#" class="btn btn-primary">Appointment</a></td><td>
+                      <a href="onepatientmedicinehistory" class="btn btn-primary">Generate PDF</a></td>
+                    
                   </tr>
-                  <tr>
-                    <td>
-                      <img src="dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
-                      Another Product
-                    </td>
-                    <td>$29 USD</td>
-                    <td>
-                      <small class="text-warning mr-1">
-                        <i class="fas fa-arrow-down"></i>
-                        0.5%
-                      </small>
-                      123,234 Sold
-                    </td>
-                    <td>
-                      <a href="#" class="text-muted">
-                        <i class="fas fa-search"></i>
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <img src="dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
-                      Amazing Product
-                    </td>
-                    <td>$1,230 USD</td>
-                    <td>
-                      <small class="text-danger mr-1">
-                        <i class="fas fa-arrow-down"></i>
-                        3%
-                      </small>
-                      198 Sold
-                    </td>
-                    <td>
-                      <a href="#" class="text-muted">
-                        <i class="fas fa-search"></i>
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <img src="dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
-                      Perfect Item
-                      <span class="badge bg-danger">NEW</span>
-                    </td>
-                    <td>$199 USD</td>
-                    <td>
-                      <small class="text-success mr-1">
-                        <i class="fas fa-arrow-up"></i>
-                        63%
-                      </small>
-                      87 Sold
-                    </td>
-                    <td>
-                      <a href="#" class="text-muted">
-                        <i class="fas fa-search"></i>
-                      </a>
-                    </td>
-                  </tr>
+                 
+                
                   </tbody>
+                 
                 </table>
+               
               </div>
+              <!-- /.card-body -->
+                </div>
+
             </div>
-        </div>
-    </div>
+            </div>
+            </div>
 
 
+           
+    </section>
+    <div class="container-fluid">
+ <a href="#" class="btn btn-primary">View Vaccination Record</a>
+ </div>
+<section class="content">
+      <div class="container-fluid">
+        <div class="row pt-5">
+          <div class="col-12">
+                <div class="card">
+              <div class="card-header">
+                <h3 class="card-title text-bold ">View Vaccines History</h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <table id="example2q" class="table table-bordered table-striped">
+                  <thead>
+                  <tr>
+                     
+                    <th>Vaccines Name</th>
+                    <th>Given Date </th>
+                     <th>Weight KG</th>
+                    <th>Height Cm</th>
+                    <th>OFC Cm</th>
+                     <th>Next Appointment</th>
+                     
 
- </section>
-</div>
+                     
+
+                    
+                    
+                  
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    
+                     <td>a</td><td>a</td><td>a</td><td>a</td><td>a</td><td><a href="#" class="btn btn-primary">Appointment</a></td>
+                    
+                    
+                  </tr>
+                 
+                
+                  </tbody>
+                 
+                </table>
+               
+              </div>
+              <!-- /.card-body -->
+                </div>
+
+            </div>
+            </div>
+            </div>
 
 
+           
+    </section>
      
    
      
