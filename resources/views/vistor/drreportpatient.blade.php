@@ -56,7 +56,16 @@
           <input type="text" name="d" class="form-control" placeholder="Day">
                </div>
                  </div>
-
+                 <hr>
+                 <label>About us</label>
+               <div class="row">
+                  
+                 <div class="form-group col-md-12">
+                
+                    <textarea rows="8" cols="80" name="comment" form="usrform">Entrer Text here......
+                    </textarea>
+                  </div>
+               </div>
                   <span style="font-size: 26px; font-weight: 600">For Medicine</span> <span class="ml-2 border">
                     
                        <select id="statusa">
@@ -71,9 +80,9 @@
         <thead>
           <tr>
             <th>Medicine Name</th>
-            <th>Medicine Quantity</th>
-            <th>Day</th>
-            <th><a href="#" class="btn btn-info act">Add</a></th>
+            <th>Frequency</th>
+            <th>instruction</th>
+            <th><a href="#" class="btn btn-info act">+</a></th>
           </tr>
         </thead>
         <tbody>
@@ -83,9 +92,13 @@
             <td>
               <select class="form-control">
                 <option selected="selected">Select </option>
-                   <option>Morning</option>
-                   <option>Afternoon</option>
-                   <option>Evening</option>
+                <option>1 + 0 + 0</option>
+                <option>1 + 1 + 0</option>
+                <option>1 + 0 + 1</option>
+                <option>0 + 1 + 0</option>
+                <option>0 + 0 + 1</option>
+                <option>0 + 1 + 1</option>
+                <option>1 + 1 + 1</option>
               </select>
   
 
@@ -110,7 +123,7 @@
           <tr>
             <th>Test Name</th>
             
-            <th><a href="#" class="btn btn-info act">Add</a></th>
+            <th><a href="#" class="btn btn-info act">+</a></th>
           </tr>
         </thead>
         <tbody>

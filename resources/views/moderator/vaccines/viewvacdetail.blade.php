@@ -1,4 +1,4 @@
-@extends('partials.layouts.doctortablemaster')
+@extends('partials.layouts.moderatortablemaster')
 @section('content')
   
 <div class="content-wrapper">
@@ -18,7 +18,7 @@
                 <div class="card-body">
                  <div class="row">
                   <div class="form-group col-md-8">
-                    <label for="exampleInputEmail1">Salect Patient Name</label>
+                    <label for="exampleInputEmail1">Salect Vaccination Patient Name</label>
                     <select class="form-control" name="bname">
                     <option value="" selected="">status</option>
                    <option>A</option>
@@ -48,27 +48,30 @@
               </div>
               <!-- /.card-header -->
               <div class="card-body">
-                <table id="example1" class="table table-bordered table-striped">
+                <table id="example2q" class="table table-bordered table-striped">
                   <thead>
                   <tr>
-                   <th>Date</th>
-                    <th>Patient Name</th>
-                    <th>Day</th>
-                    <th>Time</th>
-                    <th>Report</th>
+                     
+                    <th>Vaccines Name</th>
+                    <th>Given Date </th>
+                     <th>Weight KG</th>
+                    <th>Height Cm</th>
+                    <th>OFC Cm</th>
+                     <th>Next Appointment</th>
+                     
+
+                     
+
+                    
+                    
                   
                   </tr>
                   </thead>
                   <tbody>
                   <tr>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 4.0
-                    </td>
-                    <td>Win 95+</td>
-                    <td>a</td>
-                    <td><a href="drinvoice" class="btn btn-primary">Print PDF</a></td>
-                     
+                    
+                     <td>a</td><td>a</td><td>a</td><td>a</td><td>a</td><td>12/2/3333</td>
+                    
                     
                   </tr>
                  

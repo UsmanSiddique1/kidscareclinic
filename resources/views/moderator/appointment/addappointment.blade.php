@@ -42,7 +42,7 @@
               <div class="row">
                
           <div class="form-group col-md-6">
-     <label for="exampleInputPassword1">Day</label>
+     <label for="exampleInputPassword1">Date</label>
     <input type="date" name="b" class="form-control">
          </div>
             

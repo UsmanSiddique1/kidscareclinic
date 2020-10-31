@@ -83,7 +83,7 @@
                      <th>Weight</th>
                     <th>Height</th>
                      <th>Next Appointment</th>
-                     <th>Generate PDF</th>
+                     <th>Print PDF</th>
 
                      
 
@@ -96,7 +96,7 @@
                   <tr>
                     
                      <td>a</td><td>a</td><td>a</td><td>a</td><td>a</td><td><a href="#" class="btn btn-primary">Appointment</a></td><td>
-                      <a href="onepatientmedicinehistory" class="btn btn-primary">Generate PDF</a></td>
+                      <a href="drinvoice" class="btn btn-primary">Print PDF</a></td>
                     
                   </tr>
                  
@@ -151,7 +151,7 @@
                   <tbody>
                   <tr>
                     
-                     <td>a</td><td>a</td><td>a</td><td>a</td><td>a</td><td><a href="#" class="btn btn-primary">Appointment</a></td>
+                     <td>a</td><td>a</td><td>a</td><td>a</td><td>a</td><td>12/2/3333</td>
                     
                     
                   </tr>

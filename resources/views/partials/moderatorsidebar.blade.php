@@ -134,12 +134,17 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="user-register" class="nav-link">
+                <a href="view-vacc-patient" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p></p>
+                  <p>Vaccination Patient</p>
                 </a>
               </li>
-              
+              <li class="nav-item">
+                <a href="view-vac-detail" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Vaccination Detail</p>
+                </a>
+              </li>
                
             </ul>
           </li>

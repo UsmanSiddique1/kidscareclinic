@@ -24,30 +24,25 @@
                
                 <div class="form-group ">
                     <label for="exampleInputEmail1">Image</label>
-                    <input type="file" class="form-control-file"  name="cname">
+                    <input type="file" class="form-control-file"  name="image">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Name</label>
-                    <input type="text" class="form-control"  placeholder="Name" name="cname"></div>
+                    <input type="text" class="form-control"  placeholder="Name" name="name"></div>
                     
                     <div class="form-group">
                     <label for="exampleInputEmail1">Email</label>
-                    <input type="text" class="form-control"  placeholder="Email" name="cname"></div>
+                    <input type="text" class="form-control"  placeholder="Email" name="email"></div>
                   
                    <div class="form-group">
                     <label for="exampleInputEmail1">Phone No</label>
-                    <input type="text" class="form-control"  placeholder="Phone No" name="cname"></div>
+                    <input type="text" class="form-control"  placeholder="Phone No" name="pnumber"></div>
                
                     <div class="form-group">
                     <label for="exampleInputEmail1">Address</label>
-                    <input type="text" class="form-control"  placeholder="Address" name="cname"></div>
+                    <input type="text" class="form-control"  placeholder="Address" name="addrerss"></div>
                   
                   </div>
-                  
-                  
-                
-                 
-                
                 <!-- /.card-body -->
 
                 <div class="card-footer">

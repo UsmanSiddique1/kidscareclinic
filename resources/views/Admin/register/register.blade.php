@@ -1,4 +1,4 @@
-@extends('partials.layouts.moderatortablemaster')
+@extends('partials.layouts.datatablemaster')
 @section('content')
   
 <div class="content-wrapper">
@@ -30,8 +30,9 @@
                     <label for="exampleInputEmail1">Role</label>
                     <select class="form-control">
                       <option selected="selected">Select</option>
-                      
+                      <option>Patient</option>
                       <option>Doctor</option>
+                      <option>Sub Admin</option>
 
 
                     </select>
@@ -62,6 +63,7 @@
                   <tr>
                   	<th>User Name</th>
                     <th>Password</th>
+                    <th>Role</th>
                     <th>Edit</th>
                     <th>Delete</th>
                     
@@ -74,6 +76,7 @@
                     <td>Internet
                       Explorer 4.0
                     </td>
+                    <td>s</td>
                     <td><a href="#" class="btn btn-primary">Edit</a></td>
                     <td><a href="#" class="btn btn-danger">Delete</a></td>
                     

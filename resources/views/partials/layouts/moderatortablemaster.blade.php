@@ -68,5 +68,6 @@
 </script>
 
 <script type="text/javascript" src="{{ asset('custom/js/admin.js')}}"></script>
+<script type="text/javascript" src="{{ asset('custom/js/admin1.js')}}"></script>
 </body>
 </html>

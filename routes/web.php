@@ -8,7 +8,7 @@ use App\Http\Controllers\PatientController;
 use App\Http\Controllers\TimedaysController;
 use App\Http\Controllers\FeeController;
 use App\Http\Controllers\UsersController;
-
+use App\Http\Controllers\VaccinesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,6 +26,11 @@ Route::get('/', function () {
 });
 Route::get('invoice', function () {
     return view('invoice.invoice');
+});
+
+
+Route::get('drinvoice', function () {
+    return view('invoice.drinvoice');
 });
 Route::get('home-page',function(){
 
@@ -130,3 +135,11 @@ Route::get('viewbill',[FeeController::class,'viewbill'])->name('viewbill');
 //user 
 
 Route::get('user-register',[UsersController::class,'userregister'])->name('userregister');
+Route::get('register',[UsersController::class,'register'])->name('register');
+
+
+//vaccines
+Route::get('add-patient',[VaccinesController::class,'addpatient'])->name('addpatient');
+Route::get('view-vacc-patient',[VaccinesController::class,'viewvacpatient'])->name('viewvacpatient');
+Route::get('add-vac',[VaccinesController::class,'addvac'])->name('addvac');
+Route::get('view-vac-detail',[VaccinesController::class,'viewvacdetail'])->name('viewvacdetail');

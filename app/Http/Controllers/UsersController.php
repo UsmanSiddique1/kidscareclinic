@@ -10,4 +10,10 @@ class UsersController extends Controller
 
     	return view('moderator.userregister.userregister');
     }
+
+public function register(){
+
+    	return view('Admin.register.register');
+    }
+
 }

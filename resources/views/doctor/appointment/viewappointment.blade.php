@@ -17,7 +17,7 @@
               <form action="dr-reportpatients" >
               @csrf
               <input type="hidden" name="id" value="">
-              <button class="btn btn-success btn-md">More</button>
+              <button class="btn btn-success btn-md">View Detail</button>
                </form>
               </div>
              </div>
