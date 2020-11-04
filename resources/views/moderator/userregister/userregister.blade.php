@@ -5,45 +5,46 @@
   <section class="content">
 
       <div class="container-fluid">
-        <div class="row justify-content-center pt-3">
+        <div class="row justify-content-center">
           <!-- left column -->
-          <div class="col-md-6">
+          <div class="col-md-12">
             <!-- general form elements -->
-            <div class="card card-primary">
-              <div class="card-header">
-                <h3 class="card-title">User Registration</h3>
-              </div>
-              <!-- /.card-header -->
-              <!-- form start -->
-              <form role="form">
-                <div class="card-body">
-                 
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">User Name</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="User Name">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputEmail1" placeholder="Password">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Role</label>
-                    <select class="form-control">
-                      <option selected="selected">Select</option>
-                      
-                      <option>Doctor</option>
+            <x-guest-layout>
+    <x-jet-authentication-card>
+        <x-slot name="logo">
+           <!--  <x-jet-authentication-card-logo /> -->
+        </x-slot>
 
+        <x-jet-validation-errors class="mb-4" />
 
-                    </select>
-                  </div>
-                </div>
-                <!-- /.card-body -->
+        <form method="POST" action="{{ route('register') }}">
+            @csrf
 
-                <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-              </form>
+            <div>
+                <x-jet-label for="name" value="{{ __('Number') }}" />
+                <x-jet-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name"  placeholder="Number"/>
             </div>
+
+            <div class="mt-4">
+                <x-jet-label for="password" value="{{ __('Password') }}" />
+                <x-jet-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="new-password" placeholder="Password" />
+            </div>
+
+            <div class="mt-4">
+                <x-jet-label for="password_confirmation" value="{{ __('Confirm Password') }}" />
+                <x-jet-input id="password_confirmation" class="block mt-1 w-full" type="password" name="password_confirmation" required autocomplete="new-password" placeholder="Confirm Password" />
+            </div>
+
+            <div class="flex items-center justify-end mt-4">
+
+                <x-jet-button class="ml-4">
+                    {{ __('Register') }}
+                </x-jet-button>
+            </div>
+        </form>
+    </x-jet-authentication-card>
+</x-guest-layout>
+
           </div>
         </div>
       </div>

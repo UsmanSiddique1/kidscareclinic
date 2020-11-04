@@ -210,7 +210,7 @@
               
              
              <li class="nav-item">
-                <a href="register" class="nav-link">
+                <a href="register-j" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Add User Register</p>
                 </a>
